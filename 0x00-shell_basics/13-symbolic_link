@@ -1,0 +1,2 @@
+#!/bin/bash
+ln -s /bin/ls my_first_directory/__ls__
