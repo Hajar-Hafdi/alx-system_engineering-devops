@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script prints "Best School" 10 times and "Hi" on the 9th print.
+
+tally=0
+while [ $tally -lt 11 ]
+do
+    if [ $tally = 9 ]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    let tally+=1
+done
