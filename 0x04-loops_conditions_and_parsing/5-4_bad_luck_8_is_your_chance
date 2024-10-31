@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script prints "Best School" and prints bad lock and good lock on the 4th and 8th respectively
+
+tally=1
+while [ $tally -lt 11 ]
+do
+    if [ $tally = 4 ]
+    then
+        echo "bad luck"
+    elif [ $tally = 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    let tally+=1
+done
