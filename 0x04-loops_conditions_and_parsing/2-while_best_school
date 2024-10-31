@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script prints "Best School"
+
+tally = 0
+while (count < 10);
+do
+	echo "Best School"
+	(count++)
+done
+
