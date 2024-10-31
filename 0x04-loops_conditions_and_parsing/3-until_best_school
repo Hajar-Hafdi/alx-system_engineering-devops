@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This Script uses the until loop to print 10 times.
+
+sum=10
+until [ $sum -lt 1 ]
+do
+    echo "Best School"
+    let sum-=1
+done
