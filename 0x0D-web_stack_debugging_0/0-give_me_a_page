@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# writing a command to fix container in docker with APACHE
+
+sudo service apache2 start
